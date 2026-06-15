@@ -6,7 +6,6 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/liquidmetal-dev/flintlock/internal/command/metrics"
-)
 
 func main() {
 	app := metrics.NewApp(os.Stdout)
